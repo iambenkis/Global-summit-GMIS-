@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+header {   
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;  
+    display: flex; 
+}
+
+.navbar img {
+    width: 17rem;
+    height: 6rem;
+}
+
+.div-logo {
+    position: fixed;
+    background-color: #fff;   
+    width: 40px;
+    height: 40px;
+    left: 15px;
+    top: 15px;
+    border-radius: 50%; 
+    cursor: pointer;
+    z-index: 100;
+}
+
+.div-logo i {
+    font-size: 1.2rem;
+    position: absolute;
+    left: 30%;
+    top: 25%;
+}
+
+.home {  
+    background-image: linear-gradient(rgba(235, 235, 235, 0.329), rgba(230, 230, 230, 0.719)), url("./imgs/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+    z-index: 0; 
+    padding: 5rem 0.4rem;
+}
+
+.home-txt {
+    color: #e5352f98;
+    padding: .5rem;
+    padding-top: 30px;
+    
+}
+
+.home-txt h2 {
+    text-transform: uppercase; 
+    line-height: 44px;
+    font-size: 32px;
+    background-clip: text;
+    font-family: 'Krona One', sans-serif;
+}
+
+.home-txt .msg {
+    background: rgb(235, 235, 235);
+    color: #000;
+    font-size: 15px;
+    text-align: justify;
+    border: 2px solid #fff;
+    padding: .5rem;
+    margin: 1rem auto;
+}
+
+.time { 
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: rgb(19, 17, 17);
+}
+
+.place  {
+    color: rgb(59, 59, 59);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
