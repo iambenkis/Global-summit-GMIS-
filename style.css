@@ -102,7 +102,8 @@ a {
 }
 
 .program h2,
-.speakers h2 {
+.speakers h2,
+.partner h2 {
     color: #fff;
     text-align: center;
     font-size: 20px;
@@ -112,7 +113,8 @@ a {
 }
 
 .program h2::before,
-.speakers h2::before {
+.speakers h2::before,
+.partner h2::before{
     content: '';
     position: absolute;
     left: 36%;
@@ -168,7 +170,8 @@ a {
 
 .speakers { 
     padding: 2rem 0rem;
-    background-color: #d3d3d3;;
+    background-color: #d3d3d3;
+    font-size: 100%;
 }
  
 
@@ -203,13 +206,12 @@ a {
 
 .speaker img::before {
     position: absolute;
-    
     top: 0;
     left: 0;
 }
 
 .speaker p {
-    font-size: 14px;
+    font-size: 90%;
 }
 
 .speaker-id {
@@ -225,4 +227,64 @@ a {
     color: #ec5242;
     margin-bottom: .6rem;
     font-size: 14px;
+}
+
+.speakers button {
+    border: 1px solid rgb(170, 170, 170); 
+    width: 90%;
+    height: 2.5rem;
+    background-color: #fff;
+    justify-self: center;
+    margin-left: 5%;
+}
+
+.speakers button i {
+    color: #ec5242;
+    margin-left: .5rem;
+}
+
+.partner h2 {
+    color: rgba(255, 255, 255, 0.808);
+    margin: 1rem 0 1rem 0;
+}
+.partner h2::before {
+    left: 43.5%;
+}
+
+.partner {
+    padding: 1rem 0;
+    background-color: #272a31;;
+    padding-bottom: 2rem;
+}
+
+.partner-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    margin-top: 4rem;
+}
+
+.partner-list img {
+    width: 90px;
+}
+
+footer {
+    background-color: #d3d3d3;
+    padding: 2rem;
+    font-size: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.ft {
+    width: 50%;
+}
+
+.footer-logo {
+    width:100%;
+}
+
+.fm {
+    margin-left: 2rem;
 }
