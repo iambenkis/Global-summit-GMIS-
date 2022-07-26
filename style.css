@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -100,10 +101,15 @@ main {
 }
 
 .home-txt {
-    color: #e5352f98;
+    color: rgba(204, 41, 41, 0.774);
     padding: .5rem;
     padding-top: 50px;
-    
+    font-family: 'Krona One', sans-serif;
+}
+
+.home-txt .hello {
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
 }
 
 .home-txt h2 {
@@ -111,6 +117,7 @@ main {
     line-height: 44px;
     font-size: 32px;
     background-clip: text;
+    font-weight: 700;
     font-family: 'Krona One', sans-serif;
 }
 
