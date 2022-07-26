@@ -1,0 +1,51 @@
+.about {
+    padding: 1rem 0;
+    color: #000;
+}
+
+.about h2,
+.past-event h2 {  
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.about h2::before,
+.past-event h2::before{
+    content: '';
+    position: absolute;
+    left: 36%;
+    bottom: -50%;
+    width: 50px;
+    height: 3px;
+    background-color: rgba(204, 41, 41, 0.596);
+}
+
+.about h2::before { 
+    left: 45%;
+    bottom: -16%; 
+    width: 40px;
+}
+ 
+.past-event h2::before{ 
+    left: 43%;
+    bottom: -45%; 
+}
+
+.about img {
+    width: 80%; 
+    margin-left: 10%;
+    margin-top: 1rem;
+}
+.about p {
+    text-align: center;
+}
+
+.past-event {
+    padding: 2rem 0;
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid #ddd;
+}
+ 
