@@ -26,6 +26,50 @@ a {
     height: 6rem;
 }
 
+main {
+    position: relative; 
+    overflow: hidden;
+}
+
+.mobile-menu {
+    position: fixed; 
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #272a31;
+    display: flex;
+    font-size: 2rem;
+    background-image: url(./imgs/menu-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0% 100%;  
+    display: none;
+}
+
+.active-menu {
+    display: flex;
+}
+ 
+.mobile-menu ul {
+    margin-top: 25%;
+    margin-left: 1rem;
+}
+
+.mobile-menu a {
+    color: #e96e60;
+    font-size: 25px;
+}
+
+.mobile-menu i {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+
 .div-logo {
     position: fixed;
     background-color: #fff;   
