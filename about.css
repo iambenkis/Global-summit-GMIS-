@@ -44,8 +44,47 @@
 }
 
 .past-event {
-    padding: 2rem 0;
+    padding: 2rem 1rem;
     background-color: rgb(255, 255, 255);
     border-top: 2px solid #ddd;
 }
+ 
+.past-event p {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.sumit .event { 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+    color: #fff;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+.event-2 {
+    background-image: linear-gradient(#ee3e2ac5, #ec53429d), url(/imgs/event2.png);
+}
+
+.event-3 {
+    background-image: linear-gradient(#ee3e2ac5, #ec53429d), url(/imgs/event3.png);
+}
+
+
+.event p {
+    font-size: 1.5rem;
+}
+
+.event h3 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
  
