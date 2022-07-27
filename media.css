@@ -61,17 +61,68 @@
         width: 450px;
         margin: 0;
     }
+    .program-container {
+        display: flex;
+    }
 
     .program .pros {
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: space-between;
-        background-color: rgba(255, 255, 255, 0.199); 
-        color: #fff; 
-        font-size: 1rem;
-        width: 100%;
-        margin: 2rem 0rem;
-        padding: .3rem .1rem; 
+        justify-content: start;
+        background-color: rgba(255, 255, 255, 0.103); 
+        color: #fff;  
+        font-size: .7rem;
+        width: 200px; 
+        margin-right: .5rem;
+        padding-left: 0;
+        text-align: center;
+        padding: 1rem 0;
+        cursor: pointer;
     }
 
+    .program .pros:hover { 
+        background-color: rgba(255, 255, 255, 0.418); 
+        border: 1px solid #fff; 
+    }
+
+    .program .pros i {
+        font-size: 2rem;
+    }
+
+    .program .pros h4{
+        font-size: .7rem;
+        width: 49%;
+        margin-top: .3rem;
+    }
+    .program .pros p{
+        width: 90%;
+        margin-left: -1rem;
+    }
+
+    .program button {
+        border: none;
+        background-color: rgba(255, 255, 255, 0);
+        text-decoration: underline;
+    }
+
+    .program button:hover { 
+        background-color: rgba(204, 41, 41, 0);
+        color: rgb(255, 255, 255);
+    }
+    .speaker-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 1rem;
+    }
+
+    .more {
+        display: none;
+    }
+    .partner-list {
+        justify-content: center;
+    }
+    .partner-list img {
+        margin-right: 3rem;
+    }
 } 

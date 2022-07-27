@@ -271,8 +271,7 @@ main {
 .speakers .speaker {
     display: flex; 
     justify-content: start;
-    align-items: center;   
-    /* background-image: url(./imgs/chees.png);  */ 
+    align-items: center;    
 }
 
 .speaker img {

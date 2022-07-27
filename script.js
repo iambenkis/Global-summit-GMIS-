@@ -91,12 +91,27 @@ const displaySpeaker = () => {
     });
 }
 
+function myFunction(x) {
+    if (x.matches) { // If media query matches
+        speakerApp.innerHTML = '';
+        elt = speakers.slice(0,2);
+        displaySpeaker();
+        moreSpeaker.addEventListener('click',loadMore); 
+    } else {
+        speakerApp.innerHTML = '';
+        elt = speakers.slice(0,speakers.length);
+        displaySpeaker();
+    }
+  }
+
 window.addEventListener('scroll', () => {
     navBar.classList.toggle('nav-border', window.scrollY > 0);
 })
 
-displaySpeaker();
-moreSpeaker.addEventListener('click',loadMore); 
+let x = window.matchMedia("(max-width: 700px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction);
+
 
 
 
