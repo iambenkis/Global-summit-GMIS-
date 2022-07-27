@@ -5,6 +5,7 @@
     src: url(./webfont/Coco-Sharp-Extrabold-trial.ttf);
     font: bold;
   }
+
 * {
     margin: 0;
     padding: 0;
@@ -38,6 +39,14 @@ button {
 
 main {
     position: relative;  
+}
+
+.mobile {
+    display: flex;
+}
+
+.navbar img {
+    display: none;
 }
 
 .mobile-menu {
@@ -360,34 +369,6 @@ footer a {
 .fm {
     margin-left: 2rem;
 }
-
-@media (min-width:768px) { 
-    header {
-        display: none;
-    }
-    .navbar .fa-bars{
-        position: fixed;
-        background-color: #fff;
-        width: 40px;
-        height: 40px;
-        left: 15px;
-        top: 15px;
-        border-radius: 50%;
-        cursor: pointer;
-        z-index: 100;
-        display: none;
-    }
-
-    .mobile-menu {
-        display: none;
-    }
-
-    .active-menu {
-        display: none;
-    }
-
-    .navbar ul {
-        display: flex;
-        flex-direction: row;
-    }
+.desktop {
+    display: none;
 }

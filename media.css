@@ -1,8 +1,46 @@
-@media (min-width:780px) {
-    main {
-        background-color: black;
+@media (min-width: 768px) { 
+    .desktop {
+        display: flex;
     }
     .mobile-menu {
         display: none;
+    } 
+    .div-logo {
+        display: none;
     }
-}
+
+    .navbar {
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        padding: 1rem;
+        padding: 1rem 10rem;
+        z-index: 200;
+    }
+    .navbar img {
+        display: flex;
+        width: 12rem;
+        height: 3rem; 
+    }
+    .navbar li  { 
+        margin-left: 3rem;
+    }
+
+    .navbar li a { 
+        position: relative;
+    }
+
+    .navbar li a::before  { 
+        margin-left: 3rem;
+    }
+
+    .navbar .news {
+        margin-left: 5rem;
+        padding: .0rem 1rem;
+        border: 3px solid red;
+    }
+ 
+
+} 
