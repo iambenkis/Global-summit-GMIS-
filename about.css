@@ -1,3 +1,70 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./webfont/Coco-Sharp-Extrabold-trial.ttf);
+    font: bold;
+  }
+
+.homes {  
+    background-image: linear-gradient(rgb(235, 235, 235), rgb(230, 230, 230));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+    z-index: 0; 
+    padding: 5rem 0.4rem;
+}
+
+.homes-txt { 
+    padding: .5rem;
+    padding-top: 50px; 
+}
+
+.homes-txt .hello {
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+}
+
+.homes-txt h2 {
+    text-transform: uppercase; 
+    line-height: 44px;
+    font-size: 32px;
+    background-clip: text;
+    font-weight: 700;
+    font-family: myFirstFont, sans-serif;
+    color: #d05852;
+}
+
+.homes-txt h2 p {
+    display: inline;
+}
+
+
+.homes-txt .msg {
+    background: rgb(255, 255, 255);
+    color: #222;
+    font-size: 15px;
+    text-align: justify;
+    border: 2px solid rgba(110, 110, 110, 0.507);
+    padding: .5rem;
+    margin: 1rem auto;
+}
+
+.homes .contact-us {
+    margin: 1rem 1rem;
+    text-align: center;
+    color: #222;
+}
+
+.homes-txt a {
+    text-decoration: underline;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 10rem;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+}
+
 .about {
     padding: 1rem 0;
     color: #000;
@@ -39,8 +106,15 @@
     margin-left: 10%;
     margin-top: 1rem;
 }
+
 .about p {
     text-align: center;
+    margin: 2rem .4rem 0rem;
+}
+
+.about .description {
+    text-align: center;
+    margin: .5rem .1rem;
 }
 
 .past-event {
@@ -71,15 +145,17 @@
 
 .event-2 {
     background-image: linear-gradient(#ee3e2ac5, #ec53429d), url(/imgs/event2.png);
+    cursor: pointer;
 }
 
 .event-3 {
     background-image: linear-gradient(#ee3e2ac5, #ec53429d), url(/imgs/event3.png);
+    cursor: pointer;
 }
 
 
 .event p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .event h3 {
