@@ -53,23 +53,35 @@ lists.forEach(list => {
     list.addEventListener('click',closeMenu);
 })
 
-const elt = speakers.slice(0,2);
+let elt = speakers.slice(0,2);
 const loadMore = () => {
-    elt = speakers.slice(0,speakers.length);
+    if(document.querySelectorAll('.speaker').length < speakers.length) {
+        elt = speakers.slice(2,speakers.length);
+        displaySpeaker();
+        console.log(elt);
+    }
+    
 }
-console.log(elt);
 
-elt.forEach((item) => {
-    speakerApp.innerHTML += `
-    <div class="speaker">
-        <img src=${item.image} alt="">
-        <div class="speaker-id">
-            <h3>${item.name}</h3>
-            <h4 id="job">${item.title}</h4>
-            <p>${item.description}</p>
+
+
+const displaySpeaker = () => {
+    elt.forEach((item) => {
+        speakerApp.innerHTML += `
+        <div class="speaker">
+            <img src=${item.image} alt="">
+            <div class="speaker-id">
+                <h3>${item.name}</h3>
+                <h4 id="job">${item.title}</h4>
+                <p>${item.description}</p>
+            </div>
         </div>
-    </div>
-`
-});
+    `
+    });
+}
+displaySpeaker();
+moreSpeaker.addEventListener('click',loadMore);
+console.log(document.querySelectorAll('.speaker'))
+
 
 
