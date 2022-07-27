@@ -17,12 +17,27 @@ const speakers = [
         description : `Maxwell bachelor's degree at Circleville Bible College in 1969`,
         image : './imgs/jonhmaxwell.png'
     }
+    ,
+    {
+        name : 'vvvvvvvvvv',
+        title : 'Leadership Expert',
+        description : `Maxwell bachelor's degree at Circleville Bible College in 1969`,
+        image : './imgs/jonhmaxwell.png'
+    }
+    ,
+    {
+        name : 'vvvvvvvvvv',
+        title : 'Leadership Expert',
+        description : `Maxwell bachelor's degree at Circleville Bible College in 1969`,
+        image : './imgs/jonhmaxwell.png'
+    }
 ];
 const hambuger = document.querySelector('.fa-bars');
 const mobileMenu = document.querySelector('.mobile-menu');
 const faMark = document.querySelector('.fa-xmark');
 const lists = document.querySelectorAll('.na-list');
 const speakerApp = document.querySelector('.speaker-container');
+const moreSpeaker = document.querySelector('.more');
 
 const openMenu = () => {
     mobileMenu.classList.add('active-menu');
@@ -38,7 +53,13 @@ lists.forEach(list => {
     list.addEventListener('click',closeMenu);
 })
 
-speakers.forEach((item) => {
+const elt = speakers.slice(0,2);
+const loadMore = () => {
+    elt = speakers.slice(0,speakers.length);
+}
+console.log(elt);
+
+elt.forEach((item) => {
     speakerApp.innerHTML += `
     <div class="speaker">
         <img src=${item.image} alt="">
@@ -49,5 +70,6 @@ speakers.forEach((item) => {
         </div>
     </div>
 `
-})
+});
+
 
