@@ -113,7 +113,7 @@
     .speaker-container {
         display: grid;
         grid-template-columns: 1fr 1fr; 
-        gap: 1rem;
+        gap: 2rem;
     }
 
     .more {
@@ -124,5 +124,28 @@
     }
     .partner-list img {
         margin-right: 3rem;
+    }
+    .partner h2::before {
+        left: 48%;
+    }
+
+    footer {
+        padding: 4rem 10rem;
+    }
+
+    .ft p {
+        display: none;
+    }
+    .ft img {
+        width: 20rem; 
+    }
+    .fm a {
+        color: rgba(204, 41, 41, 0.774);
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    .fm p {
+        margin: .5rem 0;
     }
 } 
