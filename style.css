@@ -257,7 +257,12 @@ main {
     background-position: 7% 17%;
     background-repeat: no-repeat; 
     background-size: 100px 100px; 
-    padding: 2rem;
+    padding: 2rem; 
+}
+.speaker-container {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .speaker img {
