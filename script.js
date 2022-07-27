@@ -45,6 +45,7 @@ const faMark = document.querySelector('.fa-xmark');
 const lists = document.querySelectorAll('.na-list');
 const speakerApp = document.querySelector('.speaker-container');
 const moreSpeaker = document.querySelector('.more');
+const navBar = document.querySelector('.navbar')
 
 const openMenu = () => {
     mobileMenu.classList.add('active-menu');
@@ -89,6 +90,11 @@ const displaySpeaker = () => {
     `
     });
 }
+
+window.addEventListener('scroll', () => {
+    navBar.classList.toggle('nav-border', window.scrollY > 0);
+})
+
 displaySpeaker();
 moreSpeaker.addEventListener('click',loadMore); 
 

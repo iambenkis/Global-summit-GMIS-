@@ -107,7 +107,7 @@ main {
 }
 
 .home {  
-    background-image: linear-gradient(rgba(235, 235, 235, 0.329), rgba(230, 230, 230, 0.719)), url("./imgs/background.png");
+    background-image: linear-gradient(rgba(235, 235, 235, 0.521), rgba(230, 230, 230, 0.589)), url("./imgs/background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
