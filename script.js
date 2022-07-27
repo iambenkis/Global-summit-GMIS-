@@ -2,7 +2,7 @@ const speakers = [
     {
         name : 'Jonh Maxwell',
         title : 'Leadership Expert',
-        description : `Maxwell bachelor's degree at Circleville Bible College in 1969`,
+        description : `Lisa is a celebrated motivational speaker`,
         image : './imgs/jonhmaxwell.png'
     },
     {
@@ -14,28 +14,28 @@ const speakers = [
     {
         name : 'Mateo Renzi',
         title : 'Prime Ministerh',
-        description : `Former Prime Minister, Italy`,
+        description : `Lisa is a celebrated motivational speaker`,
         image : './imgs/renzi.png'
     }
     ,
     {
         name : ' Noura Al Kaabi',
         title : 'Minister',
-        description : `Minister of Culture and Youth, United Arab Emirates`,
+        description : `Lisa is a celebrated motivational speaker`,
         image : './imgs/noura.png'
     }
     ,
     {
         name : 'Patrice Caine',
         title : 'CEO',
-        description : `Chairman and Chief Executive Officer, Thales`,
+        description : `Lisa is a celebrated motivational speaker`,
         image : './imgs/caine.png'
     }
     ,
     {
         name : 'Ruth Porat',
         title : 'Senior',
-        description : `Senior Vice President and Chief Financial Officer, Alphabet and Google`,
+        description : `Lisa is a celebrated motivational speaker`,
         image : './imgs/porat.png'
     }
 ];
@@ -65,7 +65,7 @@ const loadMore = () => {
     if(document.querySelectorAll('.speaker').length < speakers.length) {
         elt = speakers.slice(2,speakers.length);
         displaySpeaker();
-        moreSpeaker.innerHTML = `More <i class="fa fa-angle-up" aria-hidden="true">`; 
+        moreSpeaker.innerHTML = `Less <i class="fa fa-angle-up" aria-hidden="true">`; 
     } else {
         speakerApp.innerHTML = ''
         elt = speakers.slice(0,2);

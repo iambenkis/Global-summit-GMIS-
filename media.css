@@ -1,0 +1,8 @@
+@media (min-width:780px) {
+    main {
+        background-color: black;
+    }
+    .mobile-menu {
+        display: none;
+    }
+}

@@ -37,8 +37,7 @@ button {
 }
 
 main {
-    position: relative; 
-    overflow: hidden;
+    position: relative;  
 }
 
 .mobile-menu {
@@ -88,7 +87,7 @@ main {
     top: 15px;
     border-radius: 50%; 
     cursor: pointer;
-    z-index: 100;
+    z-index: 100; 
 }
 
 .div-logo i {
@@ -122,12 +121,12 @@ main {
 
 .home-txt h2 {
     text-transform: uppercase; 
-    line-height: 44px;
-    font-size: 32px;
+    line-height: 54px;
+    font-size: 50px;
     background-clip: text;
-    font-weight: 700; 
+    font-weight: 900; 
     font-family: myFirstFont, sans-serif;
-    color: #d05852;
+    color: #ff0d0096;
 }
 
 .home-txt h2 p {
@@ -236,6 +235,10 @@ main {
     padding: 2rem 0rem;
     background-color: #d3d3d3;
     font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
  
 
@@ -249,41 +252,38 @@ main {
     left: 42%;
 }
 
-.speakers .speaker {
-    display: flex; 
-    justify-content: center;
-    width: 100%;
-    background-image: url(./imgs/chees.png); 
-    background-position: 7% 17%;
-    background-repeat: no-repeat; 
-    background-size: 100px 100px; 
-    padding: 2rem; 
-}
 .speaker-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    justify-content: start;  
+    align-items: flex-start;  
+}
 
+.speakers .speaker {
+    display: flex; 
+    justify-content: start;
+    align-items: center;   
+    /* background-image: url(./imgs/chees.png);  */ 
 }
 
 .speaker img {
-    width: 130px;
-    height: 130px;
-    position: relative; 
+    width: 180px;
+    height: 180px; 
+    background-image: url(./imgs/chees.png); 
+    background-position: 17% 17%;
+    background-repeat: no-repeat; 
+    background-size: 70px 70px; 
+    padding: 2rem; 
 }
-
-.speaker img::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+ 
 
 .speaker p {
-    font-size: 90%;
+    font-size: 90%; 
 }
 
 .speaker-id {
-    margin-left: 1rem;
-    margin-top: -.4rem;
+    margin-left: 0rem;
+    margin-top: -.4rem; 
 }
 
 .speaker-id h3 {
@@ -301,8 +301,7 @@ main {
     width: 90%;
     height: 2.5rem;
     background-color: #fff;
-    justify-self: center;
-    margin-left: 5%;
+    justify-self: center;  
     cursor: pointer;
 }
 
@@ -360,4 +359,35 @@ footer a {
 
 .fm {
     margin-left: 2rem;
+}
+
+@media (min-width:768px) { 
+    header {
+        display: none;
+    }
+    .navbar .fa-bars{
+        position: fixed;
+        background-color: #fff;
+        width: 40px;
+        height: 40px;
+        left: 15px;
+        top: 15px;
+        border-radius: 50%;
+        cursor: pointer;
+        z-index: 100;
+        display: none;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .active-menu {
+        display: none;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: row;
+    }
 }
