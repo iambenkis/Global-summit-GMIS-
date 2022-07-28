@@ -140,11 +140,12 @@ main {
 .home-txt h2 {
     text-transform: uppercase; 
     line-height: 40px;
-    font-size: 38px;
+    font-size: 30px;
     background-clip: text;
     font-weight: 900; 
     font-family: myFirstFont, sans-serif;
     color: #ff0d0096;
+    padding-left: 0;
 }
 
 .home-txt h2 p {
