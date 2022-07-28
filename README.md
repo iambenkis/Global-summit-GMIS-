@@ -82,7 +82,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-* [ Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) whom design was used as a template.
+* [ Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) whom design was used as a template. 
 
 ## 📝 License
 
