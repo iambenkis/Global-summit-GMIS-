@@ -1,8 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: mobile Verion and Desktop Version(completed)
+# Global Manufacture and Industry Summit 2022
  
-* 
+* In this capstone project I build a project based on an online website for a conference.I have been given design guidelines to create the website (design guidelines), I had personalized the content,though I built the website based on the content of a Global Manufacture and Industry Summit 2022 conference , even the content is based on that.
+
 
 ## Built With
 
@@ -52,12 +53,13 @@ Install linters by following this step :
  
 ### Usage
 
-* Visit the github repository and clone ![here](https://github.com/iambenkis/Portfolio.git)
+* Visit the github repository and clone ![here](https://iambenkis.github.io/Global-summit-GMIS-/)
 * Start  editing using your local development environment
 
-## Benjamin Kisenge Portfolio
+## Live Demo 
 
-* [Live demo](https://iambenkis.github.io/Portfolio/)
+* [Live demo](https://iambenkis.github.io/Global-summit-GMIS-/)
+* [Video capture]()
 
 ## Authors
 
