@@ -44,12 +44,12 @@ Install linters by following this step :
 2. Do not make any changes in config files  
 3. TYou can create a ```.gitignore``` file and add ```node_modules```
 4. To install ```Webhint``` linters run:
-        * ```npm init -y```
-        * ```npm install --save-dev hint@7.x```
+    * ```npm init -y```
+    * ```npm install --save-dev hint@7.x```
 5. To install ```Stylelint``` linters run :
-        * ```npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x```
+    * ```npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x```
 6. Ti Install ```ESLint``` run :
-        * ```npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x```
+    * ```npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x```
  
 ### Usage
 
