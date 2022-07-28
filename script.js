@@ -10,13 +10,7 @@ const speakers = [
         title : 'Transformational Speaker/Coach',
         description : `Lisa is a celebrated motivational speaker`,
         image : './imgs/lisanichols.jpeg'
-    } ,
-    {
-        name : 'Mateo Renzi',
-        title : 'Prime Ministerh',
-        description : `Lisa is a celebrated motivational speaker`,
-        image : './imgs/renzi.png'
-    }
+    } 
     ,
     {
         name : ' Noura Al Kaabi',
@@ -30,6 +24,13 @@ const speakers = [
         title : 'CEO',
         description : `Lisa is a celebrated motivational speaker`,
         image : './imgs/caine.png'
+    }
+    ,
+    {
+        name : 'Mateo Renzi',
+        title : 'Prime Ministerh',
+        description : `Lisa is a celebrated motivational speaker`,
+        image : './imgs/renzi.png'
     }
     ,
     {

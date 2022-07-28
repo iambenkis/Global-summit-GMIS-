@@ -22,12 +22,13 @@
 
 .homes-txt h2 {
     text-transform: uppercase; 
-    line-height: 44px;
-    font-size: 32px;
+    line-height: 50px;
+    font-size: 38px;
     background-clip: text;
-    font-weight: 700;
+    font-weight: 900; 
     font-family: myFirstFont, sans-serif;
-    color: #d05852;
+    color: #ff0d0096; 
+    text-align: center;
 }
 
 .homes-txt h2 p {
@@ -57,6 +58,7 @@
     color: #000;
     font-weight: 500;
     cursor: pointer;
+    margin-left: 20%;
 }
 
 .about {
@@ -142,11 +144,20 @@
     cursor: pointer;
 }
 
+
+
 .event-3 {
     background-image: linear-gradient(#ee3e2ac5, #ec53429d), url(/imgs/event3.png);
     cursor: pointer;
 }
 
+.event-2:hover {
+    background-image: linear-gradient(#ee3e2ac5, #ec5342c2), url(/imgs/event2.png); 
+}
+
+.event-3:hover {
+    background-image: linear-gradient(#ee3e2ac5, #ec5342c2), url(/imgs/event3.png);
+}
 
 .event p {
     font-size: 1.3rem;
@@ -228,5 +239,54 @@
     .about .description {
         margin-left: 20%;
     }
+
+    .sumit {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .sumit .event {
+        width: 25%;
+        margin-right: 2rem;
+    }
+
+    .about h2::before { 
+        left: 48%; 
+        bottom: -18%; 
+        width: 40px;
+    }
+
+    .past-event h2::before{ 
+        left: 48%;
+        bottom: -30%; 
+    }
+
+    .partner h2::before {
+        left: 48.5%;
+    }
+    .partner-list {
+        justify-content: center;
+    }
+    footer {
+        padding: 4rem 10rem;
+    }
+
+    .ft p {
+        display: none;
+    }
+    .ft img {
+        width: 20rem; 
+    }
+    .fm a {
+        color: rgba(204, 41, 41, 0.774);
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    .fm p {
+        display: block;
+        margin: .5rem 0;
+    }
+
 }
  
