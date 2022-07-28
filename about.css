@@ -113,7 +113,7 @@
 
 .past-event {
     padding: 2rem 1rem;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(194, 194, 194);
     border-top: 2px solid #ddd;
 }
  
@@ -209,6 +209,24 @@
     .homes-txt .link {
         margin-left: 40%;
         margin-top: 3rem;
+    }
+    .about {
+        padding: 2rem;
+    }
+    .about p {
+        width: 60%;
+        margin-left: 20%;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .about img {
+        width: 40%;
+        margin-left: 33%;
+    }
+
+    .about .description {
+        margin-left: 20%;
     }
 }
  
