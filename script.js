@@ -40,7 +40,7 @@ const speakers = [
         image : './imgs/porat.png'
     }
 ];
-const hambuger = document.querySelector('.fa-bars');
+const hambuger = document.querySelector('.div-logo');
 const mobileMenu = document.querySelector('.mobile-menu');
 const faMark = document.querySelector('.fa-xmark');
 const lists = document.querySelectorAll('.na-list');

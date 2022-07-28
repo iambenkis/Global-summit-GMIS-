@@ -59,11 +59,16 @@
         display: flex;
         justify-content: end;
         align-items: center;
+        padding: .3rem;
         padding-right: 2rem;
     }
 
     .upper i {
         margin-right: 1rem;
+    }
+
+    .upper p {
+        font-size: .7rem;
     }
  
     .home {
@@ -108,7 +113,7 @@
         background-color: rgba(255, 255, 255, 0.103); 
         color: #fff;  
         font-size: .7rem;
-        width: 200px; 
+        width: 20%; 
         margin-right: .5rem;
         padding-left: 0;
         text-align: center;
