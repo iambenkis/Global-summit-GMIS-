@@ -5,11 +5,7 @@
   }
 
 .homes {  
-    background-image: linear-gradient(rgb(235, 235, 235), rgb(230, 230, 230));
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;  
+    background-image: linear-gradient(rgb(235, 235, 235), rgb(230, 230, 230));  
     z-index: 0; 
     padding: 5rem 0.4rem;
 }
@@ -57,9 +53,7 @@
 
 .homes-txt a {
     text-decoration: underline;
-    text-align: center;
-    margin-left: 20%;
-    margin-top: 10rem;
+    text-align: center; 
     color: #000;
     font-weight: 500;
     cursor: pointer;
@@ -184,7 +178,7 @@
     .homes {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center; 
     }
     .homes-txt h2 {
         text-transform: uppercase; 
@@ -202,6 +196,7 @@
         width: 550px;
         margin: 0;
         background: #d0d2d7;
+        border: 1px solid #fff;
         margin-bottom: 1rem;
         margin-left: 7rem;
     }
@@ -209,10 +204,11 @@
         margin: 0;
         text-align: center;
         margin-left: 3rem;
+        margin-bottom: .7rem;
     }
     .homes-txt .link {
-        margin-left: 10rem;
-        margin-top: 1rem;
+        margin-left: 40%;
+        margin-top: 3rem;
     }
 }
  
