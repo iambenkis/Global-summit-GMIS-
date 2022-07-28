@@ -60,7 +60,7 @@ Install linters by following this step :
 ## Live Demo 
 
 * [Live demo](https://iambenkis.github.io/Global-summit-GMIS-/)
-* [Video capture]()
+* [Video capture](https://www.loom.com/share/16f1311b74ae468aa38fc947474ccafd)
 
 ## Authors
 
