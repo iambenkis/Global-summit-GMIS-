@@ -1,309 +1,316 @@
 @font-face {
-    font-family: myFirstFont;
-    src: url(./webfont/Coco-Sharp-Extrabold-trial.ttf);
-    font: bold;
-  }
-
-  .upper {
-   display: none;
-  }
-
-.homes {  
-    background-image: linear-gradient(rgba(235, 235, 235, 0.61), rgba(230, 230, 230, 0.582)), url(./imgs/about_bg.png);  
-    background-repeat: no-repeat;
-    z-index: 0; 
-    padding: 5rem 0.4rem;
+  font-family: myFirstFont;
+  src: url(./webfont/Coco-Sharp-Extrabold-trial.ttf);
 }
 
-.homes-txt { 
-    padding: .5rem;
-    padding-top: 50px; 
+.upper {
+  display: none;
 }
 
-.homes-txt .hello {
-    font-family: 'Krona One', sans-serif;
-    font-size: 20px;
+.homes {
+  background-image: linear-gradient(rgba(235, 235, 235, 0.61), rgba(230, 230, 230, 0.582)), url(./imgs/about_bg.png);
+  background-repeat: no-repeat;
+  z-index: 0;
+  padding: 5rem 0.4rem;
 }
 
-.homes-txt h2 {
-    text-transform: uppercase; 
-    line-height: 50px;
-    font-size: 38px;
-    background-clip: text;
-    font-weight: 900; 
-    font-family: myFirstFont, sans-serif;
-    color: #ff0d0096; 
-    text-align: center;
-}
-
-.homes-txt h2 p {
-    display: inline;
-}
-
-
-.homes-txt .msg {
-    background: rgb(255, 255, 255);
-    color: #222;
-    font-size: 15px;
-    text-align: justify;
-    border: 2px solid rgba(110, 110, 110, 0.507);
-    padding: .5rem;
-    margin: 1rem auto;
-}
-
-.homes .contact-us {
-    margin: 1rem 1rem;
-    text-align: center;
-    color: #222;
-}
-
-.homes-txt a {
-    text-decoration: underline;
-    text-align: center; 
-    color: #000;
-    font-weight: 500;
-    cursor: pointer;
-    margin-left: 20%;
-}
-
-.about {
-    padding: 1rem 0;
-    color: #000;
-}
-
-.about h2,
-.past-event h2 {  
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    position: relative;
-    margin-bottom: 1rem;
-}
-
-.about h2::before,
-.past-event h2::before{
-    content: '';
-    position: absolute;
-    left: 36%;
-    bottom: -50%;
-    width: 50px;
-    height: 3px;
-    background-color: rgba(204, 41, 41, 0.596);
-}
-
-.about h2::before { 
-    left: 45%;
-    bottom: -16%; 
-    width: 40px;
-}
- 
-.past-event h2::before{ 
-    left: 43%;
-    bottom: -45%; 
-}
-
-.about img {
-    width: 80%; 
-    margin-left: 10%;
-    margin-top: 1rem;
-}
-
-.about p {
-    text-align: center;
-    margin: 2rem .4rem 0rem;
-}
-
-.about .description {
-    text-align: center;
-    margin: .5rem .1rem;
-}
-
-.past-event {
-    padding: 2rem 1rem;
-    background-color: rgb(194, 194, 194);
-    border-top: 2px solid #ddd;
-}
- 
 .past-event p {
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.sumit .event { 
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 200px;
-    margin-bottom: 30px;
-    color: #fff;
-    display: flex;
-    font-size: 30px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 2rem 0;
-}
-
-.event-2 {
-    background-image: linear-gradient(#ee3e2ac5, #ec53429d), url('./imgs/event2.png');
-    cursor: pointer;
-}
-
-
-
-.event-3 {
-    background-image: linear-gradient(#ee3d2a93, #ec534293), url('./imgs/event3.png');
-    cursor: pointer;
-}
-
-.event-2:hover {
-    background-image: linear-gradient(#ee3e2ac5, #ec5342c2), url('./imgs/event2.png'); 
-}
-
-.event-3:hover {
-    background-image: linear-gradient(#ee3e2ac5, #ec5342c2), url('./imgs/event3.png');
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .event p {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
+}
+
+.about p {
+  text-align: center;
+  margin: 2rem 0.4rem 0;
+}
+
+.homes-txt {
+  padding: 0.5rem;
+  padding-top: 50px;
+}
+
+.homes-txt .hello {
+  font-family: 'Krona One', sans-serif;
+  font-size: 20px;
+}
+
+.homes-txt h2 {
+  text-transform: uppercase;
+  line-height: 50px;
+  font-size: 38px;
+  font-weight: 900;
+  font-family: myFirstFont, sans-serif;
+  color: #ff0d0096;
+  text-align: center;
+}
+
+.homes-txt h2 p {
+  display: inline;
+}
+
+.homes-txt .msg {
+  background: rgb(255, 255, 255);
+  color: #222;
+  font-size: 15px;
+  text-align: justify;
+  border: 2px solid rgba(110, 110, 110, 0.507);
+  padding: 0.5rem;
+  margin: 1rem auto;
+}
+
+.homes .contact-us {
+  margin: 1rem 1rem;
+  text-align: center;
+  color: #222;
+}
+
+.homes-txt a {
+  text-decoration: underline;
+  text-align: center;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 20%;
+}
+
+.about {
+  padding: 1rem 0;
+  color: #000;
+}
+
+.about h2,
+.past-event h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.about h2::before,
+.past-event h2::before {
+  content: '';
+  position: absolute;
+  left: 36%;
+  bottom: -50%;
+  width: 50px;
+  height: 3px;
+  background-color: rgba(204, 41, 41, 0.596);
+}
+
+.about h2::before {
+  left: 45%;
+  bottom: -16%;
+  width: 40px;
+}
+
+.past-event h2::before {
+  left: 43%;
+  bottom: -45%;
+}
+
+.about img {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 1rem;
+}
+
+.about .description {
+  text-align: center;
+  margin: 0.5rem 0.1rem;
+}
+
+.past-event {
+  padding: 2rem 1rem;
+  background-color: rgb(194, 194, 194);
+  border-top: 2px solid #ddd;
+}
+
+.sumit .event {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  color: #fff;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 0 30px 0;
+}
+
+.event-2 {
+  background-image: linear-gradient(#ee3e2ac5, #ec53429d), url('./imgs/event2.png');
+  cursor: pointer;
+}
+
+.event-3 {
+  background-image: linear-gradient(#ee3d2a93, #ec534293), url('./imgs/event3.png');
+  cursor: pointer;
+}
+
+.event-2:hover {
+  background-image: linear-gradient(#ee3e2ac5, #ec5342c2), url('./imgs/event2.png');
+}
+
+.event-3:hover {
+  background-image: linear-gradient(#ee3e2ac5, #ec5342c2), url('./imgs/event3.png');
 }
 
 .event h3 {
-    font-size: 2rem;
-    font-weight: 500;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 @media (min-width: 768px) {
-    .desktop {
-        display: flex;
-    }
-    .mobile-menu {
-        display: none;
-    } 
-    .div-logo {
-        display: none;
-    }
+  .desktop {
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .div-logo {
+    display: none;
+  }
+
   .upper {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    background-color: rgb(62,62,62);
+    background-color: rgb(62, 62, 62);
     color: #fff;
     display: flex;
     justify-content: end;
     align-items: center;
     padding-right: 10rem;
+  }
+
+  .navbar img {
+    display: flex;
+    width: 12rem;
+    height: 3rem;
+  }
+
+  .navbar {
+    position: fixed;
+  }
+
+  .homes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homes-txt h2 {
+    text-transform: uppercase;
+    line-height: 54px;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: myFirstFont, sans-serif;
+    color: #ff0d0096;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .homes .msg {
+    width: 550px;
+    margin: 0;
+    background: #d0d2d7;
+    border: 1px solid #fff;
+    margin-bottom: 1rem;
+    margin-left: 7rem;
+  }
+
+  .homes .contact-us {
+    margin: 0;
+    text-align: center;
+    margin-left: 3rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .homes-txt .link {
+    margin-left: 40%;
+    margin-top: 3rem;
+  }
+
+  .about {
+    padding: 2rem;
+  }
+
+  .about p {
+    width: 60%;
+    margin-left: 20%;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .about img {
+    width: 40%;
+    margin-left: 33%;
+  }
+
+  .about .description {
+    margin-left: 20%;
+  }
+
+  .sumit {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .sumit .event {
+    width: 25%;
+    margin-right: 2rem;
+  }
+
+  .about h2::before {
+    left: 48%;
+    bottom: -18%;
+    width: 40px;
+  }
+
+  .past-event h2::before {
+    left: 48%;
+    bottom: -30%;
+  }
+
+  .partner h2::before {
+    left: 48.5%;
+  }
+
+  .partner-list {
+    justify-content: center;
+  }
+
+  footer {
+    padding: 4rem 10rem;
+  }
+
+  .ft p {
+    display: none;
+  }
+
+  .ft img {
+    width: 20rem;
+  }
+
+  .fm a {
+    color: rgba(204, 41, 41, 0.774);
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .fm p {
+    display: block;
+    margin: 0.5rem 0;
+  }
 }
-    .navbar img {
-        display: flex;
-        width: 12rem;
-        height: 3rem; 
-    }
-    .navbar {
-        position: fixed;
-    }
-    .homes {
-        display: flex;
-        justify-content: center;
-        align-items: center; 
-    }
-    .homes-txt h2 {
-        text-transform: uppercase; 
-        line-height: 54px;
-        font-size: 50px;
-        background-clip: text;
-        font-weight: 900; 
-        font-family: myFirstFont, sans-serif;
-        color: #ff0d0096;
-        text-align: center;
-        margin-bottom: 2rem;
-    }
-
-    .homes .msg {
-        width: 550px;
-        margin: 0;
-        background: #d0d2d7;
-        border: 1px solid #fff;
-        margin-bottom: 1rem;
-        margin-left: 7rem;
-    }
-    .homes .contact-us{
-        margin: 0;
-        text-align: center;
-        margin-left: 3rem;
-        margin-bottom: .7rem;
-    }
-    .homes-txt .link {
-        margin-left: 40%;
-        margin-top: 3rem;
-    }
-    .about {
-        padding: 2rem;
-    }
-    .about p {
-        width: 60%;
-        margin-left: 20%;
-        font-weight: 600;
-        text-align: center;
-    }
-
-    .about img {
-        width: 40%;
-        margin-left: 33%;
-    }
-
-    .about .description {
-        margin-left: 20%;
-    }
-
-    .sumit {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
-    .sumit .event {
-        width: 25%;
-        margin-right: 2rem;
-    }
-
-    .about h2::before { 
-        left: 48%; 
-        bottom: -18%; 
-        width: 40px;
-    }
-
-    .past-event h2::before{ 
-        left: 48%;
-        bottom: -30%; 
-    }
-
-    .partner h2::before {
-        left: 48.5%;
-    }
-    .partner-list {
-        justify-content: center;
-    }
-    footer {
-        padding: 4rem 10rem;
-    }
-
-    .ft p {
-        display: none;
-    }
-    .ft img {
-        width: 20rem; 
-    }
-    .fm a {
-        color: rgba(204, 41, 41, 0.774);
-        font-size: 1rem;
-        margin-top: 1rem;
-    }
-
-    .fm p {
-        display: block;
-        margin: .5rem 0;
-    }
-
-}
- 
