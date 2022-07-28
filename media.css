@@ -217,7 +217,7 @@
 
   .home {
     padding-top: 10%;
-    padding-left: 5rem;
+    padding-left: 1rem;
   }
 
   .home-txt h2 {
@@ -226,7 +226,7 @@
   }
 
   footer {
-    padding: 3rem 5rem;
+    padding: 3rem 3rem;
   }
 
   .ft p {
@@ -234,12 +234,12 @@
   }
 
   .ft img {
-    width: 15rem;
+    width: 100%;
   }
 
   .fm a {
     color: rgba(204, 41, 41, 0.774);
-    font-size: 1rem;
+    font-size: 100%;
     margin-top: 1rem;
   }
 
@@ -268,6 +268,6 @@
 
   .home-txt h2 {
     line-height: 52px;
-    font-size: 49px;
+    font-size: 35px;
   }
 }
