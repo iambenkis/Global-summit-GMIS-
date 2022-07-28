@@ -12,12 +12,12 @@
   background-repeat: no-repeat;
   z-index: 0;
   padding: 5rem 0.4rem;
-}  
+}
 
-footer { 
-    background-color: #3b3b3b;;
-    color: #fff;
-  }
+footer {
+  background-color: #3b3b3b;
+  color: #fff;
+}
 
 .past-event p {
   text-align: center;
