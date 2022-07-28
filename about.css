@@ -163,4 +163,56 @@
     font-weight: 500;
 }
 
+@media (min-width: 768px) {
+    .desktop {
+        display: flex;
+    }
+    .mobile-menu {
+        display: none;
+    } 
+    .div-logo {
+        display: none;
+    }
+    .navbar img {
+        display: flex;
+        width: 12rem;
+        height: 3rem; 
+    }
+    .navbar {
+        position: fixed;
+    }
+    .homes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .homes-txt h2 {
+        text-transform: uppercase; 
+        line-height: 54px;
+        font-size: 50px;
+        background-clip: text;
+        font-weight: 900; 
+        font-family: myFirstFont, sans-serif;
+        color: #ff0d0096;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .homes .msg {
+        width: 550px;
+        margin: 0;
+        background: #d0d2d7;
+        margin-bottom: 1rem;
+        margin-left: 7rem;
+    }
+    .homes .contact-us{
+        margin: 0;
+        text-align: center;
+        margin-left: 3rem;
+    }
+    .homes-txt .link {
+        margin-left: 10rem;
+        margin-top: 1rem;
+    }
+}
  

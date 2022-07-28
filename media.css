@@ -49,17 +49,27 @@
     }
  
     .home {
-        padding-top: 13%;
+        padding-top: 10%;
         padding-left: 9rem; 
+        height: 100vh;
     }
 
     .home-txt {
         margin-bottom: 10px;
     }
+    .home-txt h2{
+        margin-bottom: 1rem; 
+    }
 
     .home .msg {
         width: 450px;
         margin: 0;
+        background: #d0d2d7;
+        margin-bottom: 1rem;
+    }
+
+    .home .time {
+        font-size: 1.5rem;
     }
     .program-container {
         display: flex;
@@ -148,4 +158,6 @@
     .fm p {
         margin: .5rem 0;
     }
+
+    /* About section  */
 } 

@@ -108,7 +108,7 @@ window.addEventListener('scroll', () => {
     navBar.classList.toggle('nav-border', window.scrollY > 0);
 })
 
-let x = window.matchMedia("(max-width: 700px)")
+let x = window.matchMedia("(max-width: 768px)")
 myFunction(x) // Call listener function at run time
 x.addListener(myFunction);
 

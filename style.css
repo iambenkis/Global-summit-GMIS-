@@ -107,7 +107,7 @@ main {
 }
 
 .home {  
-    background-image: linear-gradient(rgba(235, 235, 235, 0.521), rgba(230, 230, 230, 0.589)), url("./imgs/background.png");
+    background-image: linear-gradient(rgba(235, 235, 235, 0.623), rgb(230, 230, 230)), url("./imgs/bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -147,7 +147,7 @@ main {
     color: #000;
     font-size: 15px;
     text-align: justify;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     padding: .5rem;
     margin: 1rem auto;
 }
