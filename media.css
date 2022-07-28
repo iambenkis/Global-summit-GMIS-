@@ -194,7 +194,7 @@
     /* About section  */
 } 
 
-@media (min-width: 950px) {  
+@media (max-width: 950px) {  
     .navbar li{ 
         margin-left: 1rem;
         font-size: 1rem;
@@ -244,7 +244,7 @@
 }
 
 
-@media (min-width: 1115px) {   
+@media (max-width: 1115px) {   
     .navbar{
         padding: 2rem 1rem 1rem 5rem;
     }
