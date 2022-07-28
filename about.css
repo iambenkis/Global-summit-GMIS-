@@ -145,23 +145,23 @@
 }
 
 .event-2 {
-    background-image: linear-gradient(#ee3e2ac5, #ec53429d), url(/imgs/event2.png);
+    background-image: linear-gradient(#ee3e2ac5, #ec53429d), url('./imgs/event2.png');
     cursor: pointer;
 }
 
 
 
 .event-3 {
-    background-image: linear-gradient(#ee3d2a93, #ec534293), url(/imgs/event3.png);
+    background-image: linear-gradient(#ee3d2a93, #ec534293), url('./imgs/event3.png');
     cursor: pointer;
 }
 
 .event-2:hover {
-    background-image: linear-gradient(#ee3e2ac5, #ec5342c2), url(/imgs/event2.png); 
+    background-image: linear-gradient(#ee3e2ac5, #ec5342c2), url('./imgs/event2.png'); 
 }
 
 .event-3:hover {
-    background-image: linear-gradient(#ee3e2ac5, #ec5342c2), url(/imgs/event3.png);
+    background-image: linear-gradient(#ee3e2ac5, #ec5342c2), url('./imgs/event3.png');
 }
 
 .event p {
