@@ -5,7 +5,8 @@
   }
 
 .homes {  
-    background-image: linear-gradient(rgb(235, 235, 235), rgb(230, 230, 230));  
+    background-image: linear-gradient(rgba(235, 235, 235, 0.61), rgba(230, 230, 230, 0.582)), url(./imgs/about_bg.png);  
+    background-repeat: no-repeat;
     z-index: 0; 
     padding: 5rem 0.4rem;
 }
