@@ -4,6 +4,10 @@
     font: bold;
   }
 
+  .upper {
+   display: none;
+  }
+
 .homes {  
     background-image: linear-gradient(rgba(235, 235, 235, 0.61), rgba(230, 230, 230, 0.582)), url(./imgs/about_bg.png);  
     background-repeat: no-repeat;
@@ -179,6 +183,18 @@
     .div-logo {
         display: none;
     }
+  .upper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgb(62,62,62);
+    color: #fff;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 2rem;
+}
     .navbar img {
         display: flex;
         width: 12rem;

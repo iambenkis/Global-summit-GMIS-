@@ -106,6 +106,10 @@ main {
     top: 25%;
 }
 
+.upper {
+    display: none;
+}
+
 .home {  
     background-image: linear-gradient(rgba(235, 235, 235, 0.623), rgb(230, 230, 230)), url("./imgs/bg.jpg");
     background-position: center;
@@ -130,8 +134,8 @@ main {
 
 .home-txt h2 {
     text-transform: uppercase; 
-    line-height: 60px;
-    font-size: 58px;
+    line-height: 40px;
+    font-size: 38px;
     background-clip: text;
     font-weight: 900; 
     font-family: myFirstFont, sans-serif;

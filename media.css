@@ -20,6 +20,7 @@
         padding: 1rem 10%;
         z-index: 200;
         transition: .5s;
+        padding-top: 2rem;
     }
 
     .nav-border {
@@ -47,6 +48,23 @@
         padding: .0rem 1rem;
         border: 3px solid red;
     }
+
+    .upper {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: rgb(62,62,62);
+        color: #fff;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-right: 2rem;
+    }
+
+    .upper i {
+        margin-right: 1rem;
+    }
  
     .home {
         padding-top: 10%;
@@ -56,9 +74,16 @@
 
     .home-txt {
         margin-bottom: 10px;
-    }
-    .home-txt h2{
+    } 
+    .home-txt h2 {
         margin-bottom: 1rem; 
+        text-transform: uppercase; 
+        line-height: 60px;
+        font-size: 58px;
+        background-clip: text;
+        font-weight: 900; 
+        font-family: myFirstFont, sans-serif;
+        color: #ff0d0096;
     }
 
     .home .msg {
