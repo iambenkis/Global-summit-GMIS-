@@ -4,6 +4,7 @@
  
 * In this capstone project I build a project based on an online website for a conference.I have been given design guidelines to create the website (design guidelines), I had personalized the content,though I built the website based on the content of a Global Manufacture and Industry Summit 2022 conference , even the content is based on that.
 
+![Device view](imgs/device.png)
 
 ## Built With
 
