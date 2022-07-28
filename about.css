@@ -283,16 +283,10 @@
     bottom: -30%;
   }
 
-  .partner h2::before {
-    left: 48.5%;
-  }
-
-  .partner-list {
-    justify-content: center;
-  }
-
   footer {
     padding: 4rem 10rem;
+    background-color: #3b3b3b;
+    color: #fff;
   }
 
   .ft p {
