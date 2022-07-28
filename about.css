@@ -152,7 +152,7 @@
 
 
 .event-3 {
-    background-image: linear-gradient(#ee3e2ac5, #ec53429d), url(/imgs/event3.png);
+    background-image: linear-gradient(#ee3d2a93, #ec534293), url(/imgs/event3.png);
     cursor: pointer;
 }
 
@@ -193,7 +193,7 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    padding-right: 2rem;
+    padding-right: 10rem;
 }
     .navbar img {
         display: flex;

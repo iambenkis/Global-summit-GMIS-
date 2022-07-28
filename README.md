@@ -1,56 +1,58 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-
-> Description the project.
-
+# Portfolio: mobile Verion and Desktop Version(completed)
+ 
+* 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
+* HTML
+* CSS
+* Javascript 
+ 
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
+To get a  copy of my Project on you local storage , you have to follow these simple example steps.
 
-To get a local copy up and running follow these simple example steps.
+* copy this link ```https://github.com/iambenkis/Global-summit-GMIS-.git```
+* Get the directory that you want to clone the repository.
+* Open the command prompt in this directory.
+* Clone by using this command : ```git clone https://github.com/iambenkis/Global-summit-GMIS-.git```
+* Got to the cloned folder in your prompt command using ```cd folder_name```
+* Run the code 
 
-### Prerequisites
+### Prerequisites  
+Figma HTML CSS JavaScript
 
 ### Setup
 
+* git
+* github 
+* VsCode 
+* Figma (Optional)
+
 ### Install
 
+Get Figma design ![here](https://www.figma.com/files/recent?fuid=1090304969756235788)
+ 
 ### Usage
 
-### Run tests
+* Visit the github repository and clone ![here](https://github.com/iambenkis/Portfolio.git)
+* Start  editing using your local development environment
 
-### Deployment
+## Benjamin Kisenge Portfolio
 
-
+* [Live demo](https://iambenkis.github.io/Portfolio/)
 
 ## Authors
 
-👤 **Author1**
+👤  **Benjamin Kisenge**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+* GitHub: [@benjamin kisenge](https://github.com/iambenkis)
+* Twitter: [@benjamin kisenge](https://twitter.com/iambenkis)
+* LinkedIn: [benjamin kisenge](https://www.linkedin.com/in/ben-kisenge/)
 
 ## 🤝 Contributing
 
@@ -64,9 +66,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
 
 ## 📝 License
 

@@ -102,6 +102,7 @@
     }
     .program-container {
         display: flex;
+        justify-content: center;
     }
 
     .program .pros {
@@ -111,13 +112,14 @@
         justify-content: start;
         background-color: rgba(255, 255, 255, 0.103); 
         color: #fff;  
-        font-size: .7rem;
-        width: 20%; 
+        font-size: .8rem;
+        width: 14%; 
+        min-width: 14%;
         margin-right: .5rem;
         padding-left: 0;
         text-align: center;
         padding: 1rem 0;
-        cursor: pointer;
+        cursor: pointer; 
     }
 
     .program .pros:hover { 
@@ -130,7 +132,7 @@
     }
 
     .program .pros h4{
-        font-size: .7rem;
+        font-size: .8rem;
         width: 49%;
         margin-top: .3rem;
     }
