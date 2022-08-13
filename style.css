@@ -308,6 +308,7 @@ footer a {
   background-repeat: no-repeat;
   background-size: 70px 70px;
   padding: 2rem;
+  cursor: pointer;
 }
 
 .speaker-id {
