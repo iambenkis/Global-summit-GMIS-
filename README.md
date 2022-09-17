@@ -74,7 +74,7 @@ Install linters by following this step :
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/iambenkis/Global-summit-GMIS-/issues).
 
 ## Show your support
 
